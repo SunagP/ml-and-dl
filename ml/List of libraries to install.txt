@@ -1,0 +1,18 @@
+- Python 3.5.x (Do select on “Add Python 3.5 to PATH”. Also Do select TCL / TKINTER under Optional modules of Python, when installing Python – TKINTER is the GUI interface for Python. During Python install DO CLICK on the option to install TCL / TKINTER. If forgot in first pass, and python already installed, then click on Python install file AGAIN and JUST click on TCL / Kinter only to install and not the overall Python again.)
+- PyCharm community edition
+- Jupyter Notebook
+- Scikit-Learn latest version
+- Matpotlib
+- Numpy
+- Pandas
+- pydotplus
+- GraphViz
+- Scipy
+- textblob (optional - can install later)
+i.	$ pip install -U textblob
+ii.	$ python -m textblob.download_corpora
+This will install TextBlob and download the necessary NLTK corpora. If you need to change the default download directory set the NLTK_DATA environment variable.
+
+
+
+
